@@ -15,6 +15,7 @@
 		CDD39ED42C18A00C00D7EB40 /* iosalarmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD39ED32C18A00C00D7EB40 /* iosalarmsTests.swift */; };
 		CDD39EDE2C18A00C00D7EB40 /* iosalarmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD39EDD2C18A00C00D7EB40 /* iosalarmsUITests.swift */; };
 		CDD39EE02C18A00C00D7EB40 /* iosalarmsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD39EDF2C18A00C00D7EB40 /* iosalarmsUITestsLaunchTests.swift */; };
+		CDD39EEF2C18A23400D7EB40 /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD39EEE2C18A23400D7EB40 /* AlarmsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		CDD39ED92C18A00C00D7EB40 /* iosalarmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosalarmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD39EDD2C18A00C00D7EB40 /* iosalarmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosalarmsUITests.swift; sourceTree = "<group>"; };
 		CDD39EDF2C18A00C00D7EB40 /* iosalarmsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosalarmsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDD39EEE2C18A23400D7EB40 /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		CDD39EBF2C18A00B00D7EB40 /* iosalarms */ = {
 			isa = PBXGroup;
 			children = (
+				CDD39EEE2C18A23400D7EB40 /* AlarmsView.swift */,
 				CDD39EC02C18A00B00D7EB40 /* iosalarmsApp.swift */,
 				CDD39EC22C18A00B00D7EB40 /* ContentView.swift */,
 				CDD39EC42C18A00B00D7EB40 /* Item.swift */,
@@ -262,6 +265,7 @@
 			files = (
 				CDD39EC32C18A00B00D7EB40 /* ContentView.swift in Sources */,
 				CDD39EC52C18A00B00D7EB40 /* Item.swift in Sources */,
+				CDD39EEF2C18A23400D7EB40 /* AlarmsView.swift in Sources */,
 				CDD39EC12C18A00B00D7EB40 /* iosalarmsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
